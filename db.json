@@ -1,0 +1,86 @@
+{
+    "users": [
+        {
+            "id": "1",
+            "email": "cliente@test.com",
+            "password": "123456",
+            "name": "Cliente Test",
+            "role": "customer"
+        },
+        {
+            "id": "2",
+            "email": "cocina@test.com",
+            "password": "123456",
+            "name": "Cocina Central",
+            "role": "kitchen"
+        },
+        {
+            "id": "3",
+            "email": "admin@test.com",
+            "password": "123456",
+            "name": "Administrador",
+            "role": "admin"
+        }
+    ],
+    "categories": [
+        {
+            "id": "1",
+            "name": "Entradas",
+            "icon": "🍟"
+        },
+        {
+            "id": "2",
+            "name": "Platos Principales",
+            "icon": "🍔"
+        },
+        {
+            "id": "3",
+            "name": "Bebidas",
+            "icon": "🥤"
+        },
+        {
+            "id": "4",
+            "name": "Postres",
+            "icon": "🍰"
+        }
+    ],
+    "products": [
+        {
+            "id": "1",
+            "name": "Papas Fritas",
+            "price": 250,
+            "categoryId": "1",
+            "description": "Papas crujientes",
+            "imageUrl": "",
+            "available": true
+        },
+        {
+            "id": "2",
+            "name": "Hamburguesa Clásica",
+            "price": 450,
+            "categoryId": "2",
+            "description": "Carne, lechuga, tomate",
+            "imageUrl": "",
+            "available": true
+        },
+        {
+            "id": "3",
+            "name": "Coca Cola",
+            "price": 150,
+            "categoryId": "3",
+            "description": "355ml",
+            "imageUrl": "",
+            "available": true
+        },
+        {
+            "id": "4",
+            "name": "Helado",
+            "price": 200,
+            "categoryId": "4",
+            "description": "Vainilla",
+            "imageUrl": "",
+            "available": true
+        }
+    ],
+    "orders": []
+}
